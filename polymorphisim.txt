@@ -1,0 +1,9 @@
+Polymorphism
+
+Enables one to write programs that process objects that share the same super class
+
+
+Allows more general than specific programming.
+
+
+Inheritance is involved
