@@ -1,0 +1,20 @@
+ArrayLists
+
+Defn = a class with a resizable array.
+
+Methods
+
+++add(Element e)        Adds an element to the end of the ArrayList.
+
+++clear()                Removes all the elements from the ArrayList.
+
+++contains(Element e)   Returns true if the ArrayList contains the specified element; otherwise, returns false.
+
+++get(int index)        Returns the element at the specified index.
+
+++indexOf(Element e)    Returns the index of the first occurrence of the specified element in theArrayList.
+
+++remove(int index)     Overloaded. Removes the first occurrence of the specified value or
+                         the element at the specified index.
+
+++size()       Returns the number of elements stored in the ArrayList.
