@@ -17,4 +17,4 @@ Methods
 ++remove(int index)     Overloaded. Removes the first occurrence of the specified value or
                          the element at the specified index.
 
-++size()       Returns the number of elements stored in the ArrayList.
+++size()                Returns the number of elements stored in the ArrayList.
