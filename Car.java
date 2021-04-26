@@ -1,26 +1,52 @@
-package javaIntroduction;
+package gettingBetter;
 
-public class Car{
+public class Car {
 	
-	//attributes
-	String carName = "Rolls Royce";
-	double maximumSpeed = 320;
-	String color = "Silver-grey";
+	private String make;
+	private int year; //the year in which the car was made
+	private Driver driver;
 	
-	//method
-	public String viewInfo() {
-		return "["+carName+"],["+maximumSpeed+"km/h],["+color+"]";
+	
+	//default constructor
+	public Car() {
+
+		make ="";
+		year = 0;
+		driver = null;
 	}
 	
-	public static void main(String[] args) {
-		
-		Car carOne = new Car();
-		System.out.println(carOne.viewInfo());
-				
-		System.out.println("==================================");
-		System.out.println("Name:" + carOne.carName);
-		System.out.println("Max Speed:" + carOne.maximumSpeed);
-		System.out.println("Color: " + carOne.color);
-		//System.out.println("Color: " + carOne.Color);
+	//overloaded constructor
+	public Car(String make, int year, Driver driver) {
+		setMake(make);
+		setYear(year);
+		setDriver(driver);
+	}
+	
+	public String getMake() {
+		return make;
+	}
+
+	public void setMake(String make) {
+		this.make = make;
+	}
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public Driver getDriver() {
+		return driver;
+	}
+
+	public void setDriver(Driver driver) {
+		this.driver = driver;
+	}
+
+	public String toString() {
+		return ">>Make: "+make+" , Year: "+year+" , driven by => ["+driver.toString()+"]";
 	}
 }
