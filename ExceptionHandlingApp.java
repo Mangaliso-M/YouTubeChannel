@@ -1,4 +1,4 @@
-package gettingBetter;
+//package gettingBetter;
 
 import java.util.Scanner;
 
