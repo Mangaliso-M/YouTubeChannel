@@ -1,6 +1,6 @@
 /*
   @Author: Mangaliso Mngomezulu
-  BSc Computer Science and Information Technology Student, University Of KwaZulu Natal South Africa
+  BSc Computer Science and Information Technology Student, University Of KwaZulu, Natal South Africa
   Description: A CarTester class that tests the Driver and Car class by instiating objects and writing the objects to a text file
 */
 
