@@ -1,5 +1,8 @@
-package gettingBetter;
-
+/*
+  @Author: Mangaliso Mngomezulu
+  BSc Computer Science and Information Technology Student, University Of KwaZulu Natal South Africa
+  Description: A Car class that is associated with a Driver 
+*/
 public class Car {
 	
 	private String make;
