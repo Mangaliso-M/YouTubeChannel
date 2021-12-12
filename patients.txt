@@ -1,0 +1,4 @@
+Lerato,17,65,headache
+Luyanda,9,30,common cold
+Julian Draxler,25,55,hamstring and knee injury
+Mar Andre Ter Stegen,26, 60, COVID-19 latest variant
